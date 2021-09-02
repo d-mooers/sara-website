@@ -1,25 +1,25 @@
-import profilePicture from '../assets/profile.png';
+import profilePicture from '../assets/profile.jpg';
 
 import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
 
 export const colors = {
-  first: '#232122',
-  second: '#b3c100',
-  third: '#4cb5f5',
-  fourth: '#dddede',
+  fourth: '#e8e3d3',
+  third: '#4b2e83',
+  second: '#85754d',
+  first: '#d9d9d9',
 };
 
 export const headData = {
-  title: 'Name | Web developer',
+  title: 'Sara | Mechanical Engineer',
   description: 'Welcome to my website',
 };
 
 export const mainData = {
   title: 'Hi, my name is ',
-  name: 'Full Name',
-  subtitle: 'I am a web developer',
+  name: 'Sara Schultz',
+  subtitle: 'I am a Mechanical Engineer',
   cta: 'Know more',
 };
 
