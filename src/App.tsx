@@ -13,7 +13,7 @@ const App: React.FC = () => (
     <Main />
     <About />
     <Project />
-    <Contact />
+    {/* <Contact /> */}
     <Footer />
     <GlobalStyles />
   </>

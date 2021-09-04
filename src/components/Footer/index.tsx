@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react';
 import smoothscroll from 'smoothscroll-polyfill';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faChevronUp, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 import { Container } from './styles';
 import { FooterData } from '../../source/data';
@@ -31,12 +31,12 @@ const Footer: React.FC = () => {
       </a>
       <div>
         <a
-          href={FooterData.githubUrl}
+          href={FooterData.mailTo}
           aria-label="GitHub Link"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <FontAwesomeIcon icon={faGithub} size="2x" />
+          <FontAwesomeIcon icon={faEnvelope} size="2x" />
         </a>
         <a
           href={FooterData.linkedinUrl}
@@ -50,18 +50,6 @@ const Footer: React.FC = () => {
       <hr />
 
       {/* If you enjoyed this template, please leave my credits here! :) */}
-
-      <span className="copyright">
-        © {new Date().getFullYear()} - Template developed by
-        <a
-          href="https://github.com/guvarallo"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          {' '}
-          Gus Varallo
-        </a>
-      </span>
     </Container>
   );
 };

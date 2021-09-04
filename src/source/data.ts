@@ -3,6 +3,7 @@ import profilePicture from '../assets/profile.jpg';
 import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
+import projectX from '../assets/project1.png';
 
 export const colors = {
   fourth: '#e8e3d3',
@@ -23,7 +24,17 @@ export const mainData = {
   cta: 'Know more',
 };
 
-export const aboutData = {
+export type AboutData = {
+  sectionTitle: string;
+  img: any;
+  p1?: string;
+  p2?: string;
+  p3?: string;
+  p4?: string;
+  p5?: string;
+};
+
+export const aboutData: AboutData = {
   sectionTitle: 'About',
   img: { src: profilePicture },
   p1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit 
@@ -33,10 +44,12 @@ export const aboutData = {
   ultrices. Mauris nec lorem ut nulla placerat bibendum quis et tortor. Phasellus 
   ac pellentesque leo. Donec eu lorem vehicula, ultrices enim ut, convallis nibh. 
   Sed blandit ultricies leo, vel porta ante suscipit a.`,
-  p3: `Integer velit nulla, imperdiet suscipit dui non, sodales tincidunt odio. 
-  In hac habitasse platea dictumst. Cras ornare feugiat odio, at pharetra ante 
-  elementum sit amet. In aliquet purus ut mauris auctor, quis commodo libero 
+  p3: `Integer velit nulla, imperdiet suscipit dui non, sodales tincidunt odio.
+  In hac habitasse platea dictumst. Cras ornare feugiat odio, at pharetra ante
+  elementum sit amet. In aliquet purus ut mauris auctor, quis commodo libero
   dignissim. In tristique mi ut mi vulputate convallis.`,
+  p4: '',
+  p5: '',
 };
 
 export const projectSectionTitle = 'Projects';
@@ -52,9 +65,9 @@ export const projectData = [
     scelerisque magna sit amet ex condimentum varius.`,
     liveUrl: 'https://selfolio.netlify.app/',
     liveButtonText: 'See it live',
-    sourceUrl: 'https://github.com/guvarallo/selfolio',
-    sourceText: 'Source Code',
-    img: { src: project1 },
+    sourceUrl: '',
+    sourceText: '',
+    img: { src: projectX },
   },
   {
     title: 'Project 2',
@@ -81,7 +94,7 @@ export const projectData = [
     liveUrl: 'https://selfolio.netlify.app/',
     liveButtonText: 'See it live',
     sourceUrl: 'https://github.com/guvarallo/selfolio',
-    sourceText: 'Source Code',
+    sourceText: '',
     img: { src: project3 },
   },
 ];
@@ -89,10 +102,10 @@ export const projectData = [
 export const contactData = {
   title: 'Contact',
   description: 'Send me an e-mail!',
-  mailTo: 'mailto:gustavo@varallo.me',
+  mailTo: 'mailto:sjschultz67@gmail.com',
 };
 
 export const FooterData = {
-  githubUrl: 'https://github.com/guvarallo',
-  linkedinUrl: 'https://www.linkedin.com/in/gustavovarallo/',
+  mailTo: 'mailto:sjschultz67@gmail.com',
+  linkedinUrl: 'https://www.linkedin.com/in/schultz-sara/',
 };

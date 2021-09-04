@@ -5,7 +5,7 @@ import Tilt from 'react-parallax-tilt';
 import { Container, Link } from './styles';
 import { Cta } from '../../styles/cta';
 
-import { projectData, projectSectionTitle } from '../../source/data';
+import { projectData, projectSectionTitle, colors } from '../../source/data';
 
 const Project: React.FC = () => {
   return (
@@ -13,7 +13,7 @@ const Project: React.FC = () => {
       <Fade left duration={1000} delay={300} distance="30px">
         <h1>{projectSectionTitle}</h1>
       </Fade>
-      {projectData.map((project) => (
+      {projectData.map((project, i) => (
         <>
           <section className="row">
             <div className="project-text">
@@ -53,6 +53,19 @@ const Project: React.FC = () => {
               </Tilt>
             </Fade>
           </section>
+          {i < projectData.length - 1 && (
+            <div
+              style={{
+                width: '97.5%',
+                height: '2.5px',
+                background: colors.third,
+                opacity: 0.2,
+                margin: 'auto',
+                marginTop: '3rem',
+                marginLeft: '1rem',
+              }}
+            />
+          )}
         </>
       ))}
     </Container>
