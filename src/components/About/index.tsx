@@ -11,7 +11,6 @@ const Text = ({ text }) => {
 
 const About: React.FC = () => {
   const { sectionTitle, img, p1, p2, p3, p4, p5 } = aboutData;
-  const about = 'ABOUT';
 
   return (
     <Container id="about">
