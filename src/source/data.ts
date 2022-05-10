@@ -47,7 +47,7 @@ export const aboutData: AboutData = {
   to increase universal accessibility across all industries. At the University of 
   Washington, I have delved deep into the field of health and medicine, but I am excited 
   to see where my degree will take me as I strive to do my part in creating a more 
-  accessible world.`
+  accessible world.`,
   p2: `During thorough exploration into the marriage between health and engineering, 
   I have found a passion for accessibility. This passion has been applied to my academic
   curriculum as educator roles for incoming students and first-hand creating innovative 
@@ -115,7 +115,7 @@ export const projectData = [
     external contacts, communicating via virtual meeting, email and phone. As such, I coordinated meetings with 
     stakeholders to establish the identified need and issues with current solutions on the market.`,
     description4: `Honors & Acknowledgements: Hollomon Health Innovation Prototype Funding Recipient, Dempsey 
-    Start-Up Competition Investment Round Finalist, Dempsey Competition Sweet 16 Finalist, Provisional Patent Awardee.`
+    Start-Up Competition Investment Round Finalist, Dempsey Competition Sweet 16 Finalist, Provisional Patent Awardee.`,
     liveUrl: 'https://selfolio.netlify.app/',
     liveButtonText: 'See it live',
     sourceUrl: 'https://github.com/guvarallo/selfolio',
