@@ -4,7 +4,6 @@ import Main from './components/Main/index';
 import About from './components/About/index';
 import Project from './components/Projects/index';
 import Footer from './components/Footer/index';
-import Experience from './components/About/Experience';
 import GlobalStyles from './styles/global';
 
 const App: React.FC = () => (
