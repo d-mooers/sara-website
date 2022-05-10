@@ -48,7 +48,7 @@ const Project: React.FC = () => {
                   <img
                     src={project.img.src}
                     alt="project"
-                    style={{ maxWidth: '70%' }}
+                    style={{ maxWidth: '40vw' }}
                   />
                 </Tilt>
               )}

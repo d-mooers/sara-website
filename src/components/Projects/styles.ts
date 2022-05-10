@@ -20,7 +20,10 @@ export const Container = styled.section`
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 
   .project-text {

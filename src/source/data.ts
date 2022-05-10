@@ -4,7 +4,7 @@ import project1 from './files/pushstart.jpg';
 import project2 from './files/pylon.png';
 import project3 from './files/lcd housing.png';
 import project4 from './files/bike.png';
-// import project5 from '../assets/project1.png';
+import project5 from './files/lawn_mower_placeholder.png';
 
 export const colors = {
   fourth: '#e8e3d3',
@@ -152,7 +152,7 @@ export const projectData = [
     liveButtonText: 'Download',
     sourceUrl: formatURL('schultz_sara_aa_final (Lawn Mower).zip'),
     sourceText: '',
-    img: { src: project4 },
+    img: { src: project5 },
   },
 ];
 
