@@ -21,6 +21,8 @@ const Project: React.FC = () => {
                 <h2>{project.title}</h2>
                 <p>{project.description1}</p>
                 <p>{project.description2}</p>
+                <p>{project.description3 ?? ''}</p>
+
                 <div>
                   {project.liveUrl && (
                     <Cta
@@ -48,7 +50,11 @@ const Project: React.FC = () => {
                   target="_blank"
                   href={project.sourceUrl}
                 >
-                  <img src={project.img.src} alt="project" />
+                  <img
+                    src={project.img.src}
+                    alt="project"
+                    style={{ maxWidth: '70%' }}
+                  />
                 </a>
               </Tilt>
             </Fade>
