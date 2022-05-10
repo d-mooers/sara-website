@@ -1,12 +1,10 @@
 import profilePicture from '../assets/profile.jpg';
 
-import project1 from '../assets/project1.png';
-import project2 from '../assets/project2.png';
-import project3 from '../assets/project3.png';
-import project4 from '../assets/project1.png';
-import project5 from '../assets/project1.png';
-import project6 from '../assets/project1.png';
-import project7 from '../assets/project1.png';
+import project1 from './files/pushstart.jpg';
+import project2 from './files/pylon.png';
+import project3 from './files/lcd housing.png';
+import project4 from './files/bike.png';
+// import project5 from '../assets/project1.png';
 
 export const colors = {
   fourth: '#e8e3d3',
@@ -38,6 +36,9 @@ export type AboutData = {
   p6?: string;
   p7?: string;
 };
+
+const formatURL = (fileName: string): string =>
+  `https://raw.githubusercontent.com/d-mooers/sara-website/master/src/source/files/${fileName}`;
 
 export const aboutData: AboutData = {
   sectionTitle: 'About',
@@ -105,7 +106,7 @@ export const projectData = [
     process through intermediate machining`,
     liveUrl: '',
     liveButtonText: 'Download',
-    sourceUrl: 'Pylon v1.zip',
+    sourceUrl: formatURL('Pylon v1.zip'),
     sourceText: '',
     img: { src: project2 },
   },
@@ -122,9 +123,10 @@ export const projectData = [
     & all hardware components.`,
     liveUrl: '',
     liveButtonText: 'Download',
-    sourceUrl: 'lcd housing.zip',
+    sourceUrl: formatURL('lcd housing.zip'),
     sourceText: '',
     img: { src: project3 },
+    // https://raw.githubusercontent.com/d-mooers/sara-website/master/source/files/
   },
   {
     title: 'Bicycle - LinkedIn Learning',
@@ -134,7 +136,7 @@ export const projectData = [
     SolidWorks knowledge and cycling experience to better emulate my personal bike.`,
     liveUrl: '',
     liveButtonText: 'Download',
-    sourceUrl: 'Bike Model.zip',
+    sourceUrl: formatURL('Bike Model.zip'),
     sourceText: '',
     img: { src: project4 },
   },
@@ -148,9 +150,9 @@ export const projectData = [
     in my parents' garage.`,
     liveUrl: '',
     liveButtonText: 'Download',
-    sourceUrl: 'schultz_sara_aa_final (Lawn Mower).zip',
+    sourceUrl: formatURL('schultz_sara_aa_final (Lawn Mower).zip'),
     sourceText: '',
-    img: { src: project5},
+    img: { src: project4 },
   },
 ];
 

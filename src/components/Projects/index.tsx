@@ -24,15 +24,14 @@ const Project: React.FC = () => {
                 <p>{project.description3 ?? ''}</p>
 
                 <div>
-                  {project.liveUrl && (
-                    <Cta
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      href={project.liveUrl}
-                    >
-                      {project.liveButtonText}
-                    </Cta>
-                  )}
+                  <Cta
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href={project.sourceUrl}
+                    download
+                  >
+                    {project.liveButtonText}
+                  </Cta>
                   <Link
                     rel="noopener noreferrer"
                     target="_blank"
@@ -44,19 +43,15 @@ const Project: React.FC = () => {
               </Fade>
             </div>
             <Fade right duration={1000} delay={1100} distance="30px">
-              <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href={project.sourceUrl}
-                >
+              {project.img.src && (
+                <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
                   <img
                     src={project.img.src}
                     alt="project"
                     style={{ maxWidth: '70%' }}
                   />
-                </a>
-              </Tilt>
+                </Tilt>
+              )}
             </Fade>
           </section>
           {i < projectData.length - 1 && (
