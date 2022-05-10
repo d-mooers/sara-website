@@ -105,8 +105,8 @@ export const projectData = [
     process through intermediate machining`,
     liveUrl: '',
     liveButtonText: 'Download',
-    sourceUrl: '',
-    sourceText: 'Pylon v1.zip',
+    sourceUrl: 'Pylon v1.zip',
+    sourceText: '',
     img: { src: project2 },
   },
   {
