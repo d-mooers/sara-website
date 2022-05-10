@@ -106,7 +106,7 @@ export const projectData = [
     liveUrl: '',
     liveButtonText: 'Download',
     sourceUrl: '',
-    sourceText: '',
+    sourceText: 'Pylon v1.zip',
     img: { src: project2 },
   },
   {
@@ -124,19 +124,19 @@ export const projectData = [
     liveButtonText: 'Download',
     sourceUrl: 'lcd housing.zip',
     sourceText: '',
-    img: { src: project4 },
+    img: { src: project3 },
   },
   {
     title: 'Bicycle - LinkedIn Learning',
     description1: `Summer of 2021`,
     description2: `Followed general instruction from a LinkedIn Learning course to design a 
-    realistic model of a mountain bike. Customized the bike to personal liking using pre-existing 
+    realistic model of a bike. Customized the bike to personal liking using pre-existing 
     SolidWorks knowledge and cycling experience to better emulate my personal bike.`,
     liveUrl: '',
     liveButtonText: 'Download',
     sourceUrl: 'Bike Model.zip',
     sourceText: '',
-    img: { src: project5 },
+    img: { src: project4 },
   },
   {
     title: 'Lawn Mower - UW Intro to SolidWorks Course',
@@ -150,7 +150,7 @@ export const projectData = [
     liveButtonText: 'Download',
     sourceUrl: 'schultz_sara_aa_final (Lawn Mower).zip',
     sourceText: '',
-    img: { src: project6},
+    img: { src: project5},
   },
 ];
 
