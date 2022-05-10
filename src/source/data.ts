@@ -1,8 +1,12 @@
 import profilePicture from '../assets/profile.jpg';
 
+import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
-import projectX from '../assets/project1.png';
+import project4 from '../assets/project1.png';
+import project5 from '../assets/project1.png';
+import project6 from '../assets/project1.png';
+import project7 from '../assets/project1.png';
 
 export const colors = {
   fourth: '#e8e3d3',
@@ -82,7 +86,7 @@ export const projectData = [
     liveButtonText: 'See it live',
     sourceUrl: '',
     sourceText: '',
-    img: { src: projectX },
+    img: { src: project1 },
   },
   {
     title: 'Spoon for Use with Essential Tremors - HuskyADAPT Design Team',
@@ -163,7 +167,7 @@ export const projectData = [
     liveButtonText: 'See it live',
     sourceUrl: '',
     sourceText: '',
-    img: { src: project5 },
+    img: { src: project6 },
   },
   {
     title: 'Bicycle - LinkedIn Learning',
@@ -175,7 +179,7 @@ export const projectData = [
     liveButtonText: 'See it live',
     sourceUrl: '',
     sourceText: '',
-    img: { src: project5 },
+    img: { src: project7 },
   },
 ];
 
