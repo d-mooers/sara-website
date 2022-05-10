@@ -83,7 +83,7 @@ export const projectData = [
     market analysis. As we gain access to campus, we have begun the physical prototyping 
     process through intermediate machining`,
     liveUrl: 'https://selfolio.netlify.app/',
-    liveButtonText: 'See it live',
+    liveButtonText: 'Download',
     sourceUrl: '',
     sourceText: '',
     img: { src: project1 },
@@ -96,7 +96,7 @@ export const projectData = [
     those with Essential Tremors when dining. We researched, brainstormed, designed, and 
     manufactured a 3D-printed, functional prototype for our product and its targeted clientele.`,
     liveUrl: 'https://selfolio.netlify.app/',
-    liveButtonText: 'See it live',
+    liveButtonText: 'Download',
     sourceUrl: '',
     sourceText: '',
     img: { src: project2 },
@@ -117,7 +117,7 @@ export const projectData = [
     description4: `Honors & Acknowledgements: Hollomon Health Innovation Prototype Funding Recipient, Dempsey 
     Start-Up Competition Investment Round Finalist, Dempsey Competition Sweet 16 Finalist, Provisional Patent Awardee.`,
     liveUrl: 'https://selfolio.netlify.app/',
-    liveButtonText: 'See it live',
+    liveButtonText: 'Download',
     sourceUrl: 'https://github.com/guvarallo/selfolio',
     sourceText: '',
     img: { src: project3 },
@@ -133,7 +133,7 @@ export const projectData = [
     lab section. Created Process Plans that articulated the tasks at hand and the respective steps and calculations needed to 
     attain the intended prodcuts with high efficiency.`,
     liveUrl: 'https://selfolio.netlify.app/',
-    liveButtonText: 'See it live',
+    liveButtonText: 'Download',
     sourceUrl: '',
     sourceText: '',
     img: { src: project4 },
@@ -147,7 +147,7 @@ export const projectData = [
     both designing and modeling a lawnmower. It is based roughly on an existing Honda lawnmower residing 
     in my parents' garage.`,
     liveUrl: 'https://selfolio.netlify.app/',
-    liveButtonText: 'See it live',
+    liveButtonText: 'Download',
     sourceUrl: '',
     sourceText: '',
     img: { src: project5 },
@@ -164,7 +164,7 @@ export const projectData = [
     complete system including an LCD screen that displays the continuous blood pressure reading 
     & all hardware components.`,
     liveUrl: 'https://selfolio.netlify.app/',
-    liveButtonText: 'See it live',
+    liveButtonText: 'Download',
     sourceUrl: '',
     sourceText: '',
     img: { src: project6 },
@@ -176,7 +176,7 @@ export const projectData = [
     realistic model of a mountain bike. Customized the bike to personal liking using pre-existing 
     SolidWorks knowledge and cycling experience to better emulate my personal bike.`,
     liveUrl: 'https://selfolio.netlify.app/',
-    liveButtonText: 'See it live',
+    liveButtonText: 'Download',
     sourceUrl: '',
     sourceText: '',
     img: { src: project7 },
