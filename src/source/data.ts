@@ -50,7 +50,7 @@ export const aboutData: AboutData = {
   accessible world.`,
   p2: `During thorough exploration into the marriage between health and engineering, 
   I have found a passion for accessibility. This passion has been applied to my academic
-  curriculum as educator roles for incoming students and first-hand creating innovative 
+  curriculum as educator roles for incoming students and creating innovative 
   designs to address existing needs in the health industry.`,
   p3: `Projects that I have worked on focus primarily on medical device advancements.
   The considerations when designing for the user have allowed me to view engineering
@@ -73,39 +73,23 @@ export const projectData = [
   {
     title: 'Mechanical CPR Device - UW EIH PushStart',
     description1: `Academic Year 2021-2022`,
-    description2: `Tools: SolidWorks Parts & Assemblies, Collaboration through GrabCAD, 
-    Design for 3D Printing, 3D Printing (PLA & PETG), Patent Filing, Business Plan Articulation.`,
+    description2: `Tools: SolidWorks Parts & Assemblies, Design for 3D Printing, 3D Printing (PLA & PETG), 
+    Small-Scale Assembly, Patent Filing, FDA Regulatory Processes, Business Plan Articulation.`,
     description3: `Under remote mentorship from Philips, I collaborated with UW engineering students 
     to design preliminary prototypes of a mechanical CPR device for first responders both in low-resource 
-    areas & while transporting out-of-hospital cardiac arrest victims. Designed for 3D printing and 3D printed 
-    multiple componenets of the device using both Ender3 Pro & Prusa printers with PLA, HTPLA, and PETG filaments. 
-    During multiple competitions, I delivered pitches to investors that awarded the project advancement in 
-    a business compeition and a finalist place in a health innovation challenge. I act as the liaison for 
-    external contacts, communicating via virtual meeting, email and phone. As such, I coordinated meetings with 
-    stakeholders to establish the identified need and issues with current solutions on the market.`,
+    areas & while transporting out-of-hospital cardiac arrest victims. Designs were made with consideration 
+    for 3D printing and I printed multiple componenets of the device using both Ender3 Pro & Prusa printers 
+    with PLA, HTPLA, and PETG filaments. During multiple competitions, I delivered pitches to investors that awarded 
+    the project advancement in a business compeition and a finalist place in a health innovation challenge. I act 
+    as the liaison for external contacts, communicating via virtual meeting, email and phone. As such, I coordinated 
+    meetings with stakeholders to establish the identified need and issues with current solutions on the market.`,
     description4: `Honors & Acknowledgements: Hollomon Health Innovation Prototype Funding Recipient, Dempsey 
     Start-Up Competition Investment Round Finalist, Dempsey Competition Sweet 16 Finalist, Provisional Patent Awardee.`,
-    liveUrl: 'https://selfolio.netlify.app/',
-    liveButtonText: 'Download',
-    sourceUrl: 'https://github.com/guvarallo/selfolio',
-    sourceText: '',
-    img: { src: project1 },
-  },
-  {
-    title: 'Sterling Engine - UW Manufacturing Processes Course',
-    description1: `Winter of 2022`,
-    description2: `Tools: SolidWorks Parts & Assemblies, 3D Printing, Lathe, Kneemill.`,
-    description3: `By implementing tolerances and fitments of parts, I machined and 3D printed four parts of the sterling 
-    engine that my lab section cumulatively machined and assembled. Using a combination of Lathe and Kneemill, I created 
-    brass and steel parts, integral to the functionality of the engine. In collaboration with classmates, I troubleshooted 
-    assembly difficulties to ensure a final product was achieved to a high standard, completing our assembly before any other 
-    lab section. Created Process Plans that articulated the tasks at hand and the respective steps and calculations needed to 
-    attain the intended prodcuts with high efficiency.`,
-    liveUrl: 'https://selfolio.netlify.app/',
-    liveButtonText: 'Download',
+    liveUrl: '',
+    liveButtonText: '',
     sourceUrl: '',
     sourceText: '',
-    img: { src: project2 },
+    img: { src: project1 },
   },
   {
     title: 'Transtibial Socket & Pylon - BWB Prosthetics',
@@ -119,11 +103,11 @@ export const projectData = [
     prosthesis (socket, shaft, and foot) in a virtual setting by way of 3D modeling and 
     market analysis. As we gain access to campus, we have begun the physical prototyping 
     process through intermediate machining`,
-    liveUrl: 'https://selfolio.netlify.app/',
+    liveUrl: '',
     liveButtonText: 'Download',
     sourceUrl: '',
     sourceText: '',
-    img: { src: project3 },
+    img: { src: project2 },
   },
   {
     title: 'Monitor Housing - UW EIH Under Pressure',
@@ -136,9 +120,9 @@ export const projectData = [
     data. In presenting a final product, I designed, modeled, and 3D printed a housing for the 
     complete system including an LCD screen that displays the continuous blood pressure reading 
     & all hardware components.`,
-    liveUrl: 'https://selfolio.netlify.app/',
+    liveUrl: '',
     liveButtonText: 'Download',
-    sourceUrl: '',
+    sourceUrl: 'lcd housing.zip',
     sourceText: '',
     img: { src: project4 },
   },
@@ -148,9 +132,9 @@ export const projectData = [
     description2: `Followed general instruction from a LinkedIn Learning course to design a 
     realistic model of a mountain bike. Customized the bike to personal liking using pre-existing 
     SolidWorks knowledge and cycling experience to better emulate my personal bike.`,
-    liveUrl: 'https://selfolio.netlify.app/',
+    liveUrl: '',
     liveButtonText: 'Download',
-    sourceUrl: '',
+    sourceUrl: 'Bike Model.zip',
     sourceText: '',
     img: { src: project5 },
   },
@@ -162,24 +146,11 @@ export const projectData = [
     description3: `With an open ended assignment, I applied all of my knowledge from this course by 
     both designing and modeling a lawnmower. It is based roughly on an existing Honda lawnmower residing 
     in my parents' garage.`,
-    liveUrl: 'https://selfolio.netlify.app/',
+    liveUrl: '',
     liveButtonText: 'Download',
-    sourceUrl: '',
+    sourceUrl: 'schultz_sara_aa_final (Lawn Mower).zip',
     sourceText: '',
     img: { src: project6},
-  },
-  {
-    title: 'Spoon for Use with Essential Tremors - HuskyADAPT Design Team',
-    description1: `Academic Year 2019-2020`,
-    description2: `Tools: SolidWorks Parts & Assemblies, Design for 3D Printing, 3D Printing.`,
-    description3: `Consulting with a local clinician, my team devised a spoon that accommodates 
-    those with Essential Tremors when dining. We researched, brainstormed, designed, and 
-    manufactured a 3D-printed, functional prototype for our product and its targeted clientele.`,
-    liveUrl: 'https://selfolio.netlify.app/',
-    liveButtonText: 'Download',
-    sourceUrl: '',
-    sourceText: '',
-    img: { src: project7 },
   },
 ];
 
