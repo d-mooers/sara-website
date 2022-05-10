@@ -71,37 +71,6 @@ export const projectSectionTitle = 'Projects';
 
 export const projectData = [
   {
-    title: 'Transtibial Socket & Pylon - BWB Prosthetics',
-    description1: `Summer of 2021`,
-    description2: `Tools: SolidWorks Parts & Assemblies, Design for 3D Printing, 3D Printing, 
-    Aluminum Machining, Laser Cutting.`,
-    description3: `I co-lead a group of undergraduate engineering students to create a 
-    transfemoral socket that is affordable, accessible, and adjustable. We compete 
-    annually at UW's Hollomon Health Innovation Challenge where we have been finalists 
-    two sequential years. Currently, we are working on cultivating a modular transtibial 
-    prosthesis (socket, shaft, and foot) in a virtual setting by way of 3D modeling and 
-    market analysis. As we gain access to campus, we have begun the physical prototyping 
-    process through intermediate machining`,
-    liveUrl: 'https://selfolio.netlify.app/',
-    liveButtonText: 'Download',
-    sourceUrl: '',
-    sourceText: '',
-    img: { src: project1 },
-  },
-  {
-    title: 'Spoon for Use with Essential Tremors - HuskyADAPT Design Team',
-    description1: `Summer of 2021`,
-    description2: `Tools: SolidWorks Parts & Assemblies, Design for 3D Printing, 3D Printing.`,
-    description3: `Consulting with a local clinician, my team devised a spoon that accommodates 
-    those with Essential Tremors when dining. We researched, brainstormed, designed, and 
-    manufactured a 3D-printed, functional prototype for our product and its targeted clientele.`,
-    liveUrl: 'https://selfolio.netlify.app/',
-    liveButtonText: 'Download',
-    sourceUrl: '',
-    sourceText: '',
-    img: { src: project2 },
-  },
-  {
     title: 'Mechanical CPR Device - UW EIH PushStart',
     description1: `Academic Year 2021-2022`,
     description2: `Tools: SolidWorks Parts & Assemblies, Collaboration through GrabCAD, 
@@ -120,7 +89,7 @@ export const projectData = [
     liveButtonText: 'Download',
     sourceUrl: 'https://github.com/guvarallo/selfolio',
     sourceText: '',
-    img: { src: project3 },
+    img: { src: project1 },
   },
   {
     title: 'Sterling Engine - UW Manufacturing Processes Course',
@@ -136,21 +105,25 @@ export const projectData = [
     liveButtonText: 'Download',
     sourceUrl: '',
     sourceText: '',
-    img: { src: project4 },
+    img: { src: project2 },
   },
   {
-    title: 'Lawn Mower - UW Intro to SolidWorks Course',
-    description1: `Spring of 2020`,
-    description2: `Tools: SolidWorks Parts & Assemblies, General Tolerancing & Fitments, Bill of 
-    Materials, Surface Finishing.`,
-    description3: `With an open ended assignment, I applied all of my knowledge from this course by 
-    both designing and modeling a lawnmower. It is based roughly on an existing Honda lawnmower residing 
-    in my parents' garage.`,
+    title: 'Transtibial Socket & Pylon - BWB Prosthetics',
+    description1: `Fall 2021`,
+    description2: `Tools: SolidWorks Parts & Assemblies, Design for 3D Printing, 3D Printing, 
+    Aluminum Machining, Laser Cutting.`,
+    description3: `I co-lead a group of undergraduate engineering students to create a 
+    transfemoral socket that is affordable, accessible, and adjustable. We compete 
+    annually at UW's Hollomon Health Innovation Challenge where we have been finalists 
+    two sequential years. Currently, we are working on cultivating a modular transtibial 
+    prosthesis (socket, shaft, and foot) in a virtual setting by way of 3D modeling and 
+    market analysis. As we gain access to campus, we have begun the physical prototyping 
+    process through intermediate machining`,
     liveUrl: 'https://selfolio.netlify.app/',
     liveButtonText: 'Download',
     sourceUrl: '',
     sourceText: '',
-    img: { src: project5 },
+    img: { src: project3 },
   },
   {
     title: 'Monitor Housing - UW EIH Under Pressure',
@@ -167,7 +140,7 @@ export const projectData = [
     liveButtonText: 'Download',
     sourceUrl: '',
     sourceText: '',
-    img: { src: project6 },
+    img: { src: project4 },
   },
   {
     title: 'Bicycle - LinkedIn Learning',
@@ -175,6 +148,33 @@ export const projectData = [
     description2: `Followed general instruction from a LinkedIn Learning course to design a 
     realistic model of a mountain bike. Customized the bike to personal liking using pre-existing 
     SolidWorks knowledge and cycling experience to better emulate my personal bike.`,
+    liveUrl: 'https://selfolio.netlify.app/',
+    liveButtonText: 'Download',
+    sourceUrl: '',
+    sourceText: '',
+    img: { src: project5 },
+  },
+  {
+    title: 'Lawn Mower - UW Intro to SolidWorks Course',
+    description1: `Spring of 2020`,
+    description2: `Tools: SolidWorks Parts & Assemblies, General Tolerancing & Fitments, Bill of 
+    Materials, Surface Finishing.`,
+    description3: `With an open ended assignment, I applied all of my knowledge from this course by 
+    both designing and modeling a lawnmower. It is based roughly on an existing Honda lawnmower residing 
+    in my parents' garage.`,
+    liveUrl: 'https://selfolio.netlify.app/',
+    liveButtonText: 'Download',
+    sourceUrl: '',
+    sourceText: '',
+    img: { src: project6},
+  },
+  {
+    title: 'Spoon for Use with Essential Tremors - HuskyADAPT Design Team',
+    description1: `Academic Year 2019-2020`,
+    description2: `Tools: SolidWorks Parts & Assemblies, Design for 3D Printing, 3D Printing.`,
+    description3: `Consulting with a local clinician, my team devised a spoon that accommodates 
+    those with Essential Tremors when dining. We researched, brainstormed, designed, and 
+    manufactured a 3D-printed, functional prototype for our product and its targeted clientele.`,
     liveUrl: 'https://selfolio.netlify.app/',
     liveButtonText: 'Download',
     sourceUrl: '',
