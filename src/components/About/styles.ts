@@ -40,7 +40,7 @@ export const Container = styled.div`
       p {
         font-size: 1.5rem;
         margin: 1em;
-        text-align: justify;
+        text-align: left;
         font-weight: 400;
       }
     }

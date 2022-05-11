@@ -28,7 +28,7 @@ export const Container = styled.section`
 
   .project-text {
     margin-left: 1rem;
-    text-align: justify;
+    text-align: left;
     font-size: 1.5rem;
     max-width: 40%;
 
