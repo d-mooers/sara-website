@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import { aboutData } from '../../source/data';
 import { Container } from './styles';
 
-const Text = ({ text }) => {
+const Text = ({ text = '' }: { text?: string }): React.ReactElement => {
   if (text) return <p>{text}</p>;
   return <></>;
 };

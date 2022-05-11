@@ -20,12 +20,15 @@ export const Container = styled.section`
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 
   .project-text {
     margin-left: 1rem;
-    text-align: justify;
+    text-align: left;
     font-size: 1.5rem;
     max-width: 40%;
 
