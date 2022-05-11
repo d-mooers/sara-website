@@ -61,7 +61,7 @@ export const aboutData: AboutData = {
   p5: `Technical: SolidWorks, 3D Printing (PLA, HTPLA, & PETG), MATLAB, FEA (ANSYS), Java, 
   ME Machine Shop (emphasis on Lathe & Kneemill), Technical Writing, Microsoft Office Suite, Social Media 
   Coordination.`,
-  p6: `Business: Team Leadership, Educator, Presntation (Individual & Group), 
+  p6: `Business: Team Leadership, Educator, Presentation (Individual & Group), 
   Recruitment, Conflict Resolution, Professional Liason, Meeting Facilitator, Tradeshow Marketing & Networking.`,
   p7: `Relevant Coursework @ UW: Introductory Biomechanics, Musculoskeletal Biomechanics, Vibrations, Advanced 
   Energy Conversion Systems, Sensors & Instrumentation, Manufacturing Processes, Mechanical Design.`,
